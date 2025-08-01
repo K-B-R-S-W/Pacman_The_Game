@@ -1,44 +1,74 @@
-# Pac-Man Game
+# ⍩⃝ Pac Man Game – Java Edition ⍩⃝
+*A modern twist on the timeless arcade classic.*
 
-A Java implementation of the classic Pac-Man arcade game with modern features and improvements.
+## 🎮 Features
 
-## Features
+* 🧠 **Classic Gameplay** – Navigate mazes, dodge ghosts, and collect pellets!
+* 👻 **Smart Ghost AI** – Dynamic movement with weighted direction preferences
+* ⚡ **Power-Ups** – Turn the tables with power pellets and eat vulnerable ghosts
+* 🔁 **Wrap-Around Edges** – Classic screen warping at maze boundaries
+* 🍒 **Bonus Items** – Catch cherries for extra points
+* 📈 **Score & Lives** – Track your score and survive with 3 lives
+* 📦 **Multiple Levels** – Difficulty increases with ghost speed and maze complexity
+* 🎯 **Smooth Movement & Collision** – Precision control and clean gameplay
 
-- Classic Pac-Man gameplay with ghosts, power pellets, and cherries
-- Multiple levels with increasing difficulty
-- Ghost AI with improved movement patterns
-- Power-up system with temporary ghost vulnerability
-- Score tracking and lives system
-- Smooth character movement and collision detection
-- Wrap-around board edges
-- Cherry bonus items
+## 🔄 Recent Updates
 
-## Recent Updates
+* ✅ Improved ghost behavior for more strategic movement
+* ✅ Adjusted ghost speed scaling:
+   * Level 1: 0.5x
+   * Level 2: 0.6x
+   * Level 3+: 1.0x
+* ✅ Enhanced collision detection
+* ✅ Added anti-camping timer for ghosts
+* ✅ Optimized Pac-Man movement for responsiveness
 
-- Improved ghost movement behavior for more dynamic gameplay
-- Adjusted ghost speeds per level (0.5x for level 1, 0.6x for level 2, 1.0x for level 3)
-- Enhanced collision detection system
-- Added stationary timer to prevent ghosts from staying in one area
-- Implemented weighted direction preferences for better ghost exploration
-- Optimized Pac-Man's movement responsiveness
+## 🎮 Controls
 
-## Controls
+| Key | Action |
+|-----|--------|
+| ↑ ↓ ← → | Move Pac-Man |
+| `ESC` | Exit the game |
+| `ENTER` | Restart after Game Over |
 
-- Arrow keys to move Pac-Man
-- ESC to exit the game
-- ENTER to restart after game over
+## 🛠️ Setup Instructions
 
-## Setup
+1. 🔽 **Install Java** (Java 8 or above)
+2. 🧱 **Compile the game**
 
-1. Ensure you have Java installed on your system
-2. Compile the game: `javac PacMan.java`
-3. Run the game: `java PacMan`
+```bash
+javac PacMan.java
+```
 
-## Game Elements
+3. ▶️ **Run the game**
 
-- Regular dots: 10 points
-- Power pellets: 50 points + ghost vulnerability
-- Cherries: 100 points
-- Eating vulnerable ghosts: 200 points
-- Three lives to start
-- Advancing levels increases ghost speed and maze complexity
+```bash
+java PacMan
+```
+
+## 🎯 Scoring System
+
+| Item | Points | Effect |
+|------|--------|--------|
+| Regular Dot | 10 pts | Standard score boost |
+| Power Pellet | 50 pts | Ghosts become vulnerable |
+| Cherry | 100 pts | Bonus item |
+| Vulnerable Ghost | 200 pts | Per ghost eaten |
+
+* 💖 Start with **3 lives**
+* 🔁 Level up = faster, smarter ghosts
+
+---
+
+## 📮 Support
+
+**📧 Email:** [k.b.ravindusankalpaac@gmail.com](mailto:k.b.ravindusankalpaac@gmail.com)  
+**🐞 Bug Reports:** [GitHub Issues](https://github.com/K-B-R-S-W/Pacman_The_Game/issues)  
+**📚 Documentation:** See the project [Wiki](https://github.com/K-B-R-S-W/Pacman_The_Game/wiki)  
+**💭 Discussions:** Join the [GitHub Discussions](https://github.com/K-B-R-S-W/Pacman_The_Game/discussions)
+
+---
+
+## ⭐ Support This Project
+
+If you find this project helpful, please consider giving it a **⭐ star** on GitHub!
