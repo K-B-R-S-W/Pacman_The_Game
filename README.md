@@ -58,7 +58,7 @@ java PacMan
 * 💖 Start with **3 lives**
 * 🔁 Level up = faster, smarter ghosts
 
----
+
 
 ## 📮 Support
 
@@ -67,7 +67,7 @@ java PacMan
 **📚 Documentation:** See the project [Wiki](https://github.com/K-B-R-S-W/Pacman_The_Game/wiki)  
 **💭 Discussions:** Join the [GitHub Discussions](https://github.com/K-B-R-S-W/Pacman_The_Game/discussions)
 
----
+
 
 ## ⭐ Support This Project
 
